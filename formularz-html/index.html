@@ -12,13 +12,13 @@
        <input type="text" name="imie" id="imie"/> <br /> 
        
        <label for="nazwisko">Nazwisko:</label> 
-       <input type="text" name="nazwisko" id="nazwisko"/> <br />
+       <input type="text" name="nazwisko" id="nazwisko" required/> <br />
        
        <label for="email">email:</label>
        <input type="email" name="email" id="email"/> <br />
        
        <label for="telefon">Telefon:</label>
-       <input type="text" name="telefon" id="telefon"/> <br />
+       <input type="tel" name="telefon" id="telefon"/> <br />
        
        <label for="miasto">Miasto:</label>
         <select name="miasto">
@@ -26,6 +26,9 @@
            <option value"warszawa">Warszawa</option>
            <option value"radom">Radom</option>   
        </select> <br />
+       
+       <label for="kod-pocztowy">Kod pocztowy:</label>
+       <input type="text" name="kod-pocztowy" pattern="^\d{2}-\d{3}$" id="kod-pocztowy"/> <br />
        
        <label for="wiadomosc">Wiadomość:</label>
        <textarea maxlength="1000" id="wiadomosc"></textarea> <br />
