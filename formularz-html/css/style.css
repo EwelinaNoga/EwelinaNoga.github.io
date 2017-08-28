@@ -1,0 +1,66 @@
+form {
+    background-color: #213b50;
+    width: 700px;
+    height: 500px;
+    color: white;
+}
+
+input,
+select,
+textarea {
+    background-color: #2b4a64;
+}
+
+label, input:not([type=submit]):not([type:checbox]),
+select{
+    width: 300px;
+    height: 20px;
+    border: 0;
+}
+
+input,
+select {
+    margin: 0;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: greenyellow;
+}
+
+selector[att*="val"] {
+    color: white;
+}
+
+label {
+    margin-left: 10px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+select {
+    margin-left: 10px;
+}
+
+textarea {
+    margin-left: 10px;
+}
+
+label {
+    border: 0;
+}
+
+input:focus {
+    background-color: #4e708c;
+    online: none;
+}
+
+input:active{
+    color: #ffffff;
+}
+
+option:active{
+    color: white;
+}
