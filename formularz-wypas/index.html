@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz wypas :)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+        <form action="https://formspree.io/ewelina.noga@gmail.com" method="POST">
+        <fieldset>
+            <legend>Customer Info</legend>
+                <label class= "opis" for="name">Name:</label>
+                <input class="zawartosc" type="text" name="name" id="name" placeholder="Enter your name" autofocus required /><br/>
+
+                <label class= "opis" for="telephone">Telephone:</label>
+                <input class= "zawartosc" type="tel" name="telephone" id="telephone" placeholder="Pattem 1-222-222-222" pattern="\d{1}[\-]\d{3}[\-]\d{3}[\-]\d{3}" required /><br/>
+
+                <label class= "opis" for="mail">Email address:</label>
+                <input class= "zawartosc" type="email" name="mail" id="mail" placeholder="Enter your email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/><br/>          
+        </fieldset>
+        </form>
+
+    <fieldset>
+            <legend>Books</legend>
+                <select name="books" id="books">
+                    <option value="book1">"Zanim odszedłeś"</option>
+                    <option value="book2">""Zanim sie pojawiłeś"</option>
+                    <option value="book3">"Kubuś Puchatek"</option>
+                    <option value="book4">"Mały książe"</option>
+                    <option value="book5">"JavaScript i JQuery"</option>
+                </select>
+                <form class="quan">
+                <label for="quant">Quantity (maximum 5):</label>
+                <input type="number" name="quant" min="1" max="5"/>
+                </form>
+     </fieldset>
+        
+          <br/><input type="submit" name="submit" id="submit" value="Submit">
+</body>
+
+</html>
