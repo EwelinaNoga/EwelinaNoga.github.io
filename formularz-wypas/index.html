@@ -25,13 +25,14 @@
 
     <fieldset>
             <legend>Books</legend>
-                <select name="books" id="books">
-                    <option value="book1">"Zanim odszedłeś"</option>
-                    <option value="book2">""Zanim sie pojawiłeś"</option>
-                    <option value="book3">"Kubuś Puchatek"</option>
-                    <option value="book4">"Mały książe"</option>
-                    <option value="book5">"JavaScript i JQuery"</option>
-                </select>
+                <input list="books" name="books">
+                   <datalist id="books">
+                    <option value="Zanim odszedłeś">
+                    <option value="Zanim sie pojawiłeś">
+                    <option value="Kubuś Puchatek">
+                    <option value="Mały książe">
+                    <option value="JavaScript i JQuery">
+                   </datalist>
                 <form class="quan">
                 <label for="quant">Quantity (maximum 5):</label>
                 <input type="number" name="quant" min="1" max="5"/>
