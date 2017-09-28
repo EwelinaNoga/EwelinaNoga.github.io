@@ -188,24 +188,6 @@ span {
     opacity: 1;
 }
 
-/*
-#moje-portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask  {
-    color: #ffffff;
-    font-size: 1em;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 390px;
-}
-*/
-/*
-#moje-portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask .xx {
-    color: #ffffff;
-    font-size: 1em;
-    display: block;
-}
-*/
-
 /* dane formularz */
 
 #dane {
@@ -250,7 +232,7 @@ span {
     text-transform: uppercase;
     transition: all 0.4s;
     padding: 15px 30px;
-    margin-left: 440px;
+    float: right;
      
 }
 
