@@ -1,0 +1,35 @@
+$base-color:#1ac056;
+
+$bace-color-text:#FFFFFF;
+
+$base-color-dane:#113b53;
+
+$font-naglowek:'Roboto Slab', san-serif;
+
+$font-naglowek-rozmiar: 3vw;
+
+$color-main-nav:rgba(255, 255, 255, 0.65);
+
+$color-sekcja-omnie: #f9fcfe;
+
+@mixin portfolio-image-all {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    transition: all 0.4s;
+}
+
+@mixin portfolio-image-mask-all {
+     background-color: rgba(33, 59, 80, 0.75);
+    height: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    position: absolute;
+    color: #ffffff;
+    font-size: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding-top: 80px;
+}

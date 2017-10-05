@@ -1,0 +1,25 @@
+@import "zmienne";
+header {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/header-background.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    .inner {
+        h1 {
+            font-family: 'Roboto Slab', sans-serif;
+            color: #FFFFFF;
+            font-size: 10em;
+        }
+        h2 {
+            font-family: 'Roboto Slab', sans-serif;
+            color: #FFFFFF;
+            font-size: 4em;
+            text-transform: uppercase;
+        }
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+    }
+}

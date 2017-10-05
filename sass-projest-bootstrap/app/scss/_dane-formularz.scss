@@ -1,0 +1,66 @@
+@import "zmienne";
+#dane {
+    background-color: #213b50;
+    .container {
+        margin-top: 30px;
+        .row {
+            .col-sm-6 {
+                #dane-adres {
+                    font-size: 1em;
+                    color: white;
+                    margin-bottom: 40px;
+                    margin-top: 40px;
+                }
+                #dane-kontakt {
+                    font-size: 1em;
+                    color: white;
+                }
+            }
+            .col-sm-6 {
+                input,
+                textarea {
+                    text-transform: uppercase;
+                    padding: 15px;
+                    font-family: 'Lato', sans-serif;
+                    border-radius: 5px;
+                    background-color: $base-color-dane;
+                }
+                input:not([type="submit"]),
+                textarea {
+                    width: 100%;
+                    border: 0;
+                }
+                input:not([type="submit"]) {
+                    margin-bottom: 30px;
+                }
+                input[type="submit"] {
+                    background-color: $base-color;
+                    border: 1px solid #FFFFFF;
+                    color: #FFFFFF;
+                    font-family: 'Lato', sans-serif;
+                    text-transform: uppercase;
+                    transition: all 0.4s;
+                    padding: 15px 30px;
+                    float: right;
+                }
+                input[type="submit"]:hover {
+                    background-color: ;
+                    color: $base-color;
+                }
+            }
+            #icons-contact {
+                .icons {
+                    color: #FFFFFF;
+                    font-size: 2em;
+                    border: 2px solid #FFFFFF;
+                    padding: 4px;
+                    margin: 4px;
+                    display: inline-block;
+                    width: 45px;
+                    height: 45px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

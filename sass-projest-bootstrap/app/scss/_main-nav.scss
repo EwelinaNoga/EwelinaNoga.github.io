@@ -1,0 +1,19 @@
+@import "zmienne";
+#main-nav {
+    background-color: transparent;
+    border: 0;
+    transition: all 0.4s;
+    
+    #main-nav.scrolled {
+        background-color: $color-main-nav;
+    }
+    #main-nav .navbar-collapse .navbar-nav li a {
+        color: $bace-color-text;
+        font-family: $font-naglowek;
+        transition: all 0.4s;
+    }
+    #main-nav .navbar-collapse .navbar-nav li a:hover {
+        color: $base-color;
+    }
+    
+}

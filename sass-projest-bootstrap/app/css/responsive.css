@@ -1,0 +1,210 @@
+@media all and (max-width : 680px) {
+    padding: 0 40px 50px;
+}
+
+@media all and (max-width : 480px) {
+    padding: 0 10px 30px;
+}
+
+/*menu i header*/
+
+@media all and (max-width: 768px) {
+    li.menu-item {
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+        display: block;
+        width: 100%;
+    }
+    nav ul {
+        display: none;
+    }
+    #drop {
+        display: none;
+    }
+    nav label {
+        display: block;
+    }
+    #drop:checked+ul {
+        display: block;
+    }
+    nav li>a {
+        float: none;
+    }
+    nav label {
+        color: #1ac056;
+        float: right;
+        padding: 0 20px;
+    }
+}
+
+
+/*header*/
+
+@media all and (max-width: 768px) {
+    header {
+        padding: 10%;
+    }
+}
+
+@media all and (max-width: 680px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
+
+
+/*sekcja o mnie*/
+
+@media all and (max-width: 768px) {
+    img.foto {
+        max-height: inherit
+    }
+    
+    article#about1 {
+        width: 100%
+/*
+        margin-left: 2%;
+        margin-right: 2%;
+*/
+    }
+    
+    h3 {
+        font-size: 1em;
+    }
+    
+    article#about1 p {
+        font-size: 0.5em;
+    }
+    
+    article#about1 {
+        padding: 5% 5% 15% 5%;
+    }
+}
+
+
+/*sekcja moje umiejetnosci*/
+
+@media all and (max-width: 768px) {
+    article#about2 {
+        width: 100%;
+        margin: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 0;
+    }
+    
+    h4 {
+        font-size: 1em;
+        padding: 2%;
+        margin: 3%;
+/*        text-align: center;*/
+    }
+    
+    article#about2 p {
+        font-size: 0.5em;
+    }
+    
+/*
+    div#figure-icons {
+        margin: 0;
+    }
+*/
+    
+    
+    img.caption-icons {
+        margin: 3%;
+        text-align: center;
+        width: 5vw;
+        display: inline-block;
+    }
+    
+    figcaption.caption-icons {
+        width: 1vw;
+    }
+    
+    figure {
+        display: inline-block;
+        padding: 4%;
+        margin: 3%;
+    
+    }
+    figure figcaption.caption-icons {
+        width: 2vw;
+        margin: 0;
+        
+    }
+
+}
+
+/*moje portfolio*/
+
+@media all and (max-width : 768px) {
+     h5 {
+        font-size: 1em;
+    }
+    
+}
+
+@media all and (max-width : 1200px) {
+    .single-portfolio- item {
+        width: 50%;
+    }
+    
+    .single-portfolio- item:last-child {
+        width: 100%;
+    }
+}
+
+@media all and (max-width : 768px) {
+    .single-portfolio- item {
+        width: 100%;
+    }
+    
+}
+/*dane i formularz*/
+
+@media all and (max-width : 768px) {
+    div#dane-lewa-strona{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .dane-dane {
+        text-align: center;
+        font-size: 2em;  
+    }
+
+#icons1, #icons2, #icons3, #icons4 {
+    display: inline-block;
+    font-size: 10px;
+    width: 2%;
+    height: 2%;
+    color: white;
+    margin-left: 5%;
+    margin-right: 0;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 5%;
+    border: 1px solid white;
+   
+}
+    div#dane-prawa-strona{
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
