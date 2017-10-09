@@ -10,22 +10,29 @@ section {
 
 .container {
     margin-top: 30px;
-    
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Roboto Slab', sans-serif;
 }
-h3, h4, h5, h6 {
+
+h3,
+h4,
+h5,
+h6 {
     font-size: 4vw;
     font-family: 'Lato', sans-serif
 }
-h1, h2, h6 {
-   color: #FFFFFF; 
+
+h1,
+h2,
+h6 {
+    color: #FFFFFF;
 }
 
 h2 {
-   font-size: 5vw;
+    font-size: 5vw;
     text-transform: uppercase;
 }
 
@@ -38,7 +45,9 @@ span {
     color: #1ac056;
 }
 
+
 /*nawigacja*/
+
 #main-nav {
     background-color: transparent;
     border: 0;
@@ -50,12 +59,12 @@ span {
 }
 
 #main-nav .navbar-collapse .navbar-nav li a {
-    color:#FFFFFF;
+    color: #FFFFFF;
     transition: all 0.4s;
 }
 
 #main-nav .navbar-collapse .navbar-nav li a:hover {
-    color:#1ac056;
+    color: #1ac056;
 }
 
 #main-nav .navbar-collapse .navbar-nav li a {
@@ -63,11 +72,12 @@ span {
     transition: all 0.4s;
 }
 
+
 /*header*/
 
 #main-header {
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/header-background.jpg') no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/header-background.jpg') no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -80,6 +90,7 @@ span {
     text-align: center;
 }
 
+
 /* o mnie */
 
 .foto {
@@ -87,32 +98,33 @@ span {
     border: 5px solid white;
 }
 
-
-#o-mnie .row .col-sm-6 > p {
+#o-mnie .row .col-sm-6>p {
     text-align: left;
 }
 
 #o-mnie {
     background-color: #f9fcfe;
     box-shadow: 0px 6px 6px #888888;
-    
 }
+
 
 /* moje umiejetnosci */
 
-#moje-umiejetnosci > p {
+#moje-umiejetnosci>p {
     margin-top: 30px;
 }
 
 #moje-umiejetnosci .caption-icons {
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #moje-umiejetnosci .container .row {
-   margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
+
 /* portfolio */
+
 #moje-portfolio {
     background-color: #f7f7f7;
 }
@@ -137,7 +149,6 @@ span {
     background-position: center;
     height: 100%;
     transition: all 0.4s;
-    
 }
 
 #moje-portfolio .single-portfolio-item .portfolio-image:hover {
@@ -147,26 +158,13 @@ span {
 #moje-portfolio #portfolio-image-1 {
     background-image: url('../img/portfolio1.jpg');
 }
+
 #moje-portfolio #portfolio-image-2 {
     background-image: url('../img/portfolio2.jpg');
 }
+
 #moje-portfolio #portfolio-image-3 {
     background-image: url('../img/portfolio3.jpg');
-}
-
-#portfolio-image-1:hover {
-     outline: 2px solid #FFFFFF;
-     outline-offset: -25px;
-}
-
-#portfolio-image-2:hover {
-     outline: 2px solid #FFFFFF;
-     outline-offset: -25px;
-}
-
-#portfolio-image-3:hover {
-     outline: 2px solid #FFFFFF;
-     outline-offset: -25px;
 }
 
 #moje-portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask {
@@ -184,10 +182,12 @@ span {
     padding-top: 80px;
 }
 
- 
 #moje-portfolio .single-portfolio-item .portfolio-image:hover .portfolio-image-mask {
     opacity: 1;
+    outline: 2px solid #FFFFFF;
+    outline-offset: -25px;
 }
+
 
 /* dane formularz */
 
@@ -195,7 +195,7 @@ span {
     background-color: #213b50;
 }
 
-#dane .container .row .col-sm-6  p {
+#dane .container .row .col-sm-6 p {
     font-size: 1em;
     color: white;
 }
@@ -204,7 +204,6 @@ span {
     margin-bottom: 40px;
     margin-top: 40px;
 }
-
 
 #dane input:not([type="submit"]),
 #dane textarea {
@@ -234,7 +233,6 @@ span {
     transition: all 0.4s;
     padding: 15px 30px;
     float: right;
-     
 }
 
 #dane input[type="submit"]:hover {
@@ -256,7 +254,6 @@ span {
 
 footer {
     background-color: #113b53;
-    
 }
 
 #main-footer {
@@ -270,6 +267,3 @@ footer {
 #cc {
     color: #FFFFFF;
 }
-
-
-
