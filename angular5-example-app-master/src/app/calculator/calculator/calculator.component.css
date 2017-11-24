@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
-
 .calculator {
     top: 50%;
     right: 20%;
@@ -25,7 +24,6 @@
     -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 4px rgba(0, 0, 0, 0.5);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 4px rgba(0, 0, 0, 0.5);
 }
-
 .calc-display {
     margin: 0 0 20px;
     padding: 3px;
@@ -34,7 +32,6 @@
     -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.08);
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
-
 .calc-display-input {
     display: block;
     width: 100%;
@@ -54,18 +51,15 @@
     -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.12);
     box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.12);
 }
-
 .calc-row, .operators {
     margin-top: 7px;
     zoom: 1;
 }
-
 .calc-row:before, .calc-row:after, .operators:after, .operators:before {
     content: '';
     display: table;
     clear: both;
 }
-
 .calc-button {
     float: left;
     padding: 0;
@@ -89,26 +83,21 @@
     -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.08);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
-
 .calc-row .calc-button {
     width: 74px;
     margin-bottom: 10px;
 }
-
 .calc-row .calc-button:nth-child(4n+1) {
     margin-left: 0px;
 }
-
 .calc-button:first-child {
     margin-left: 0;
 }
-
 .calc-button:active {
     background: #282828;
     -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.05);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
-
 .calc-button-gray {
     background: #6f6f6f;
     background-image: -webkit-linear-gradient(top, #6f6f6f, #515151);
@@ -116,20 +105,15 @@
     background-image: -o-linear-gradient(top, #6f6f6f, #515151);
     background-image: linear-gradient(to bottom, #6f6f6f, #515151);
 }
-
 .calc-button-gray:active {
     background: #555;
 }
-
 .calc-button-gren {
     background: #7FBF3F;
-    
 }
-
 .calc-button-gren:active {
     background: #7FBF3F;
 }
-
 .calc-button-yellow {
     background: #93DF47;
     background-image: -webkit-linear-gradient(top, #ffb935, #93DF47);
