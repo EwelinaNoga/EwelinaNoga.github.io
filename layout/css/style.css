@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+#main-header .foto-header {
+    background: url('../../img/obraz1.jpg') no-repeat;
+}
+
+#main-header .foto {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#main-header .info-promo {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../../img/obraz1.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    font-size: 4em;
+}
+
+#main-header .info-promo span {
+    font-weight: bold;
+}
+
+#main-header .info-promo #gino {
+    margin-top: 100px;
+}
+
+#main-header #big {
+    font-size: 4.5em;
+}
+
+#main-header .info-promo #kod {
+    font-size: 0.8em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#main-header input[type="submit"] {
+    width: 300px;
+    height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: black;
+    border-color: black;
+    font-size: 0.5em;
+}
+
+#promo p {
+    margin: 0;
+}
+
+#informacje {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.foto-buty {
+    height: 50vh;
+    width: 100%;
+}
+
+.buty-foto {
+    margin: 0;
+    padding: 0;
+}
+
+.icons {
+    color: #FFFFFF;
+    font-size: 2em;
+    background-color: black;
+    border: 2px solid black;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    display: inline-block;
+}
+
+#buty1 .geox {
+    background-color: lightgray;
+    height: 50vh;
+}
+
+#buty1 .geox p {
+    font-size: 2em;
+}
+
+#buty2 {
+    margin-top: 30px;
+}
+
+#buty2 .carpice {
+    background-color: #f2dae4;
+    height: 50vh;
+}
+
+#buty2 .carpice p {
+    font-size: 2em;
+}
+
+.logo {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.icons {
+    margin-top: 50px;
+}
+
+#main-header .info-promo #promo {
+    display: inline-block;
+}
+
+#main-header #promo .znizka {
+    float: left;
+    width: 10%;
+    box-sizing: border-box;    
+}
+
+#main-header #promo .prawa-znizka {
+    float: left;
+    width: 10%;
+    margin-top: 80px;
+    font-size: 0.7em;
+}
+
+#main-header #promo .lewa-dol-znizka {
+    float: left;
+    width: 10%;
+    margin-top: 70px;
+    padding-left: 15px;
+    font-size: 1em;
+}
+
+#main-header #promo .lewa-gora-znizka {
+    float: left;
+    width: 10%;
+    margin-top: 50px;
+    padding-left: 40px;
+    font-size: 0.8em;
+}
+
+#main-header #promo .wartosc-znizka {
+    float: left;
+    width: 50%;
+    font-size: 2.7em;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+#main-header #promo .znizka-info {
+    font-size: 0.9em;
+    text-align: center;
+}
