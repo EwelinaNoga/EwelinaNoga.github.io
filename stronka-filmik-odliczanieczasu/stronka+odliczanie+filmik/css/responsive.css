@@ -1,0 +1,30 @@
+@media all and (max-width: 768px) {
+    #main-nav .navbar-collapse .navbar-nav li {
+        text-align: right;
+    }
+    #services .row>div {
+        margin-bottom: 40px;
+    }
+    #team .row>div {
+        margin-bottom: 40px;
+    }
+    #main-header input:not([type="submit"]) {
+        width: 285px;
+        height: 51px;
+    }
+    #main-header input:not([type="email"]) {
+        width: 59px;
+        height: 51px;
+    }
+    
+     #main-header .social-icons-header  p{
+        text-align: center;
+    }
+    #main-header .social-icons-header  {
+        text-align: center;
+    }
+    #contact .sd {
+     text-align: center;
+        float: right;
+    }
+}
